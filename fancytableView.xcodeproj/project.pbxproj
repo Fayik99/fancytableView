@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		11DD432C24BBB2E90020C247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DD432B24BBB2E90020C247 /* AppDelegate.swift */; };
 		11DD432E24BBB2E90020C247 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DD432D24BBB2E90020C247 /* SceneDelegate.swift */; };
-		11DD433024BBB2E90020C247 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DD432F24BBB2E90020C247 /* ViewController.swift */; };
 		11DD433324BBB2E90020C247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DD433124BBB2E90020C247 /* Main.storyboard */; };
 		11DD433524BBB3130020C247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DD433424BBB3130020C247 /* Assets.xcassets */; };
 		11DD433824BBB3130020C247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DD433624BBB3130020C247 /* LaunchScreen.storyboard */; };
+		11F69AD024BC7095006BC8BF /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F69ACF24BC7095006BC8BF /* CountriesTableViewController.swift */; };
+		11F69AD224BC7474006BC8BF /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F69AD124BC7473006BC8BF /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11DD432824BBB2E90020C247 /* fancytableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fancytableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DD432B24BBB2E90020C247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11DD432D24BBB2E90020C247 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11DD432F24BBB2E90020C247 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11DD433224BBB2E90020C247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11DD433424BBB3130020C247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11DD433724BBB3130020C247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11DD433924BBB3130020C247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F69ACF24BC7095006BC8BF /* CountriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
+		11F69AD124BC7473006BC8BF /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				11DD432B24BBB2E90020C247 /* AppDelegate.swift */,
 				11DD432D24BBB2E90020C247 /* SceneDelegate.swift */,
-				11DD432F24BBB2E90020C247 /* ViewController.swift */,
 				11DD433124BBB2E90020C247 /* Main.storyboard */,
 				11DD433424BBB3130020C247 /* Assets.xcassets */,
 				11DD433624BBB3130020C247 /* LaunchScreen.storyboard */,
 				11DD433924BBB3130020C247 /* Info.plist */,
+				11F69ACF24BC7095006BC8BF /* CountriesTableViewController.swift */,
+				11F69AD124BC7473006BC8BF /* Country.swift */,
 			);
 			path = fancytableView;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11DD433024BBB2E90020C247 /* ViewController.swift in Sources */,
+				11F69AD224BC7474006BC8BF /* Country.swift in Sources */,
+				11F69AD024BC7095006BC8BF /* CountriesTableViewController.swift in Sources */,
 				11DD432C24BBB2E90020C247 /* AppDelegate.swift in Sources */,
 				11DD432E24BBB2E90020C247 /* SceneDelegate.swift in Sources */,
 			);
