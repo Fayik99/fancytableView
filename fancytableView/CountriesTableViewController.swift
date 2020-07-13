@@ -42,10 +42,17 @@ class CountriesTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CountryCell", for: indexPath)
+        let cell2 = tableView.dequeueReusableCell(withIdentifier: "CountryCell2", for: indexPath)
 
         cell.textLabel?.text = countries[indexPath.row].name
         cell.detailTextLabel?.text = countries[indexPath.row].code
-        return cell
+        cell2.textLabel?.text = countries[indexPath.row].name
+        
+        if(indexPath.row%2 == 0) {
+            return cell
+        } else {
+            return cell2
+        }
     }
     
 
