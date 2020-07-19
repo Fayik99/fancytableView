@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		114E5C7524C4457100BD4206 /* CustomCityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114E5C7324C4457100BD4206 /* CustomCityTableViewCell.swift */; };
+		114E5C7624C4457100BD4206 /* CustomCityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114E5C7424C4457100BD4206 /* CustomCityTableViewCell.xib */; };
+		114E5C7824C447BF00BD4206 /* MyCityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114E5C7724C447BF00BD4206 /* MyCityTableViewController.swift */; };
 		11DD432C24BBB2E90020C247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DD432B24BBB2E90020C247 /* AppDelegate.swift */; };
 		11DD432E24BBB2E90020C247 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DD432D24BBB2E90020C247 /* SceneDelegate.swift */; };
 		11DD433324BBB2E90020C247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DD433124BBB2E90020C247 /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		114E5C7324C4457100BD4206 /* CustomCityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCityTableViewCell.swift; sourceTree = "<group>"; };
+		114E5C7424C4457100BD4206 /* CustomCityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCityTableViewCell.xib; sourceTree = "<group>"; };
+		114E5C7724C447BF00BD4206 /* MyCityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCityTableViewController.swift; sourceTree = "<group>"; };
 		11DD432824BBB2E90020C247 /* fancytableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fancytableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DD432B24BBB2E90020C247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11DD432D24BBB2E90020C247 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				11DD433924BBB3130020C247 /* Info.plist */,
 				11F69ACF24BC7095006BC8BF /* CountriesTableViewController.swift */,
 				11F69AD124BC7473006BC8BF /* Country.swift */,
+				114E5C7324C4457100BD4206 /* CustomCityTableViewCell.swift */,
+				114E5C7424C4457100BD4206 /* CustomCityTableViewCell.xib */,
+				114E5C7724C447BF00BD4206 /* MyCityTableViewController.swift */,
 			);
 			path = fancytableView;
 			sourceTree = "<group>";
@@ -129,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11DD433824BBB3130020C247 /* LaunchScreen.storyboard in Resources */,
+				114E5C7624C4457100BD4206 /* CustomCityTableViewCell.xib in Resources */,
 				11DD433524BBB3130020C247 /* Assets.xcassets in Resources */,
 				11DD433324BBB2E90020C247 /* Main.storyboard in Resources */,
 			);
@@ -144,7 +154,9 @@
 				11F69AD224BC7474006BC8BF /* Country.swift in Sources */,
 				11F69AD024BC7095006BC8BF /* CountriesTableViewController.swift in Sources */,
 				11DD432C24BBB2E90020C247 /* AppDelegate.swift in Sources */,
+				114E5C7524C4457100BD4206 /* CustomCityTableViewCell.swift in Sources */,
 				11DD432E24BBB2E90020C247 /* SceneDelegate.swift in Sources */,
+				114E5C7824C447BF00BD4206 /* MyCityTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
